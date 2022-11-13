@@ -56,4 +56,4 @@ async def on_message_delete(message):
 
 
 acesss_token = os.environ["BOT_TOKEN"]
-client.run('OTQyMjk0MTI4NjE4NzkwOTMy.Ga2XLl.3m9kzY5h1iNYkn5AT2m__P6cIEbS_93vw5WojY')
+client.run('access_token')
