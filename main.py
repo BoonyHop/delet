@@ -7,6 +7,7 @@
 import discord
 import asyncio
 import datetime
+import os
 
 intents = discord.Intents.all()
 client = discord.Client(intents=intents)
@@ -54,4 +55,5 @@ async def on_message_delete(message):
     await client.get_channel(int(bot_logs)).send(embed=embed)
 
 
+acesss_token = os.environ["BOT_TOKEN"]
 client.run('OTQyMjk0MTI4NjE4NzkwOTMy.Ga2XLl.3m9kzY5h1iNYkn5AT2m__P6cIEbS_93vw5WojY')
